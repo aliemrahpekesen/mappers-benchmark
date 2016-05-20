@@ -7,36 +7,78 @@ just run app with an argument. You can find arguments desctiptions and test resu
 
 
 > ## Orika Test Results
-cmd     : java -jar BenchMarking.jar -o 100
+cmd     : java -jar BenchMarking.jar -o 10000
 
-> - Total Miliseconds  : 3433
-> - Times              : 100
-> - Average Milisecods : 34.33
+>Before Warm Up JVM
+
+> - Total Miliseconds  : 61134
+> - Times              : 10000
+> - Average Milisecods : 6.1134
+
+>After Warm Up JVM
+
+> - Total Miliseconds  : 59891
+> - Times              : 10000
+> - Average Milisecods : 5.9891
 
 > ## Dozer Test Results
-cmd     : java -jar BenchMarking.jar -d 100
+cmd     : java -jar BenchMarking.jar -d 10000
 
-> - Total Miliseconds  : 681
-> - Times              : 100
-> - Average Milisecods : 6.81
+>Before Warm Up JVM
+
+> - Total Miliseconds  : 2010
+> - Times              : 10000
+> - Average Milisecods : 0.201
+
+>After Warm Up JVM
+
+> - Total Miliseconds  : 1943
+> - Times              : 10000
+> - Average Milisecods : 0.1943
 
 > ## Selma Test Results
-cmd     : java -jar BenchMarking.jar -s 100
+cmd     : java -jar BenchMarking.jar -s 10000
 
-> - Total Miliseconds  : 535
-> - Times              : 100
-> - Average Milisecods : 5.35
+>Before Warm Up JVM
+
+> - Total Miliseconds  : 823
+> - Times              : 10000
+> - Average Milisecods : 0.0823
+
+>After Warm Up JVM
+
+> - Total Miliseconds  : 811
+> - Times              : 10000
+> - Average Milisecods : 0.0811
 
 > ## MapStruct Test Results
-cmd     : java -jar BenchMarking.jar -ms 100
+cmd     : java -jar BenchMarking.jar -ms 10000
 
-> - Total Miliseconds  : 499
-> - Times              : 100
-> - Average Milisecods : 4.99
+>Before Warm Up JVM
+
+> - Total Miliseconds  : 671
+> - Times              : 10000
+> - Average Milisecods : 0.0671
+
+>After Warm Up JVM
+
+> - Total Miliseconds  : 604
+> - Times              : 10000
+> - Average Milisecods : 0.0604
 
 > ## Manual Mapping Test Results
-cmd     : java -jar BenchMarking.jar -m 100
+cmd     : java -jar BenchMarking.jar -m 10000
 
-> - Total Miliseconds  : 466
-> - Times              : 100
-> - Average Milisecods : 4.66
+>Before Warm Up JVM
+
+> - Total Miliseconds  : 591
+> - Times              : 10000
+> - Average Milisecods : 0.0591
+
+>After Warm Up JVM
+
+> - Total Miliseconds  : 584
+> - Times              : 10000
+> - Average Milisecods : 0.0584
+
+
