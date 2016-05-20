@@ -5,6 +5,18 @@ just run app with an argument. You can find arguments desctiptions and test resu
 
 -d : DOZER // -s : SELMA // -o : ORIKA // -m : MANUAL // -ms : MAPSTRUCT 
 
+> ## System Details of Test Environment
+> - Operating System       : Win7 SP1 
+> - System Type            : 64-bit OS
+> - Processor              : Intel(R) Core(TM) i7-4510U CPU @2.00Ghz 2.60Ghz
+> - Memory (RAM)           : 8GB
+> - Installed JDK          : jdk1.7.0_79
+> - VM Options 
+  * -Xmx1024m
+  * -Xms512m
+  * -XX:PermSize=128M
+  * -XX:MaxPermSize=215m
+
 
 > ## Orika Test Results
 cmd     : java -jar BenchMarking.jar -o 10000
