@@ -1,7 +1,7 @@
 #mappers-benchmark
-You can find MapStruct-Selma-Dozer-Orika-ManualMapping benchmark results i this repo
+You can find MapStruct-Selma-Dozer-Orika-ManualMapping benchmark results in this repo
 
-just run app with an argument. You can find arguments desctiptions and test results in below;
+just run app with an argument. You can find arguments descriptions and test results below;
 
 -d : DOZER // -s : SELMA // -o : ORIKA // -m : MANUAL // -ms : MAPSTRUCT 
 
